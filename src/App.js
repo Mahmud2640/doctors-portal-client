@@ -8,6 +8,7 @@ import Reviews from "./Components/Page/Reviews/Reviews";
 import About from "./Components/Page/About/About";
 import Login from "./Components/Page/Login/Login";
 import Footer from "./Components/Shared/Footer/Footer";
+import Error from "./Components/Shared/Error/Error";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/reviews" element={<Reviews />} />
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login />} />
+        <Route path="*" element={<Error />} />
       </Routes>
       <Footer></Footer>
     </div>
