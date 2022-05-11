@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../../../../assets/images/treatment.png";
+import Button from "../../../Shared/Button/Button";
 
 const Experiment = () => {
   return (
@@ -13,7 +14,7 @@ const Experiment = () => {
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
           </p>
-          <button class="btn btn-primary">Get Started</button>
+          <Button>Get Started</Button>
         </div>
       </div>
     </div>
